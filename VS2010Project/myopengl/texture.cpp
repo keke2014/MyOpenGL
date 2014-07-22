@@ -1,9 +1,6 @@
 
 #include "texture.h"
 
-#include <FreeImage.h>
-#pragma comment(lib, "FreeImage.lib")
-
 CTexture::CTexture()
 {
 	m_bMipMapsGenerated = false;
